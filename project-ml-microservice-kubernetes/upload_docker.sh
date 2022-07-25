@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="ninyhorlah6/flaskapp"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login && docker image tag flaskapp $dockerpath
 
 # Step 3:
-# Push image to a docker repository
+# Push Image
+docker image push $dockerpath
