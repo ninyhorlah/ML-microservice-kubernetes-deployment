@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath="ninyhorlah6/flaskapp:latest"
+dockerpath="ninyhorlah6/flaskappml:latest"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl create deploy flaskapp --image=$dockerpath
+kubectl create deploy flaskappml1 --image=$dockerpath
 
 
 # Step 3:

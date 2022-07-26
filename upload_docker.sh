@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath="ninyhorlah6/flaskapp"
+dockerpath="ninyhorlah6/flaskappml"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker login && docker image tag flaskapp $dockerpath
+docker login && docker image tag predict $dockerpath
 
 # Step 3:
 # Push Image

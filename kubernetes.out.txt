@@ -1,0 +1,14 @@
+NAME                        READY   STATUS    RESTARTS   AGE
+flaskappml-6649484c56-kr8nx   1/1     Running   0          85m
+
+##Port Handling Text on main terminal
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
