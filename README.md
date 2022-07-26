@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+CircleCI status badge
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/ninyhorlah/ML-microservice-kubernetes-deployment/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/ninyhorlah/ML-microservice-kubernetes-deployment/tree/main)
 
 ## Project Overview
